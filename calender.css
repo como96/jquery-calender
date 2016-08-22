@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}
+body {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    color: #555;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #c7c7c7), color-stop(0.85, #e3e3e3), color-stop(0.00, #fff));
+    background: -webkit-linear-gradient(top, #fff 0%, #e3e3e3 85%, #c7c7c7 100%);
+    background: -moz-linear-gradient(top, #fff 0%, #e3e3e3 85%, #c7c7c7 100%);
+    background: -o-linear-gradient(top, #fff 0%, #e3e3e3 85%, #c7c7c7 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #e3e3e3 85%, #c7c7c7 100%);
+    background: linear-gradient(to bottom, #fff 0%, #e3e3e3 85%, #c7c7c7 100%);
+}
+a {
+    text-decoration: none;
+    color: #1e90ff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+a:hover {
+    color: #003db7;
+    /*font-weight: bold;*/
+}
+header {
+    margin: 2rem auto 1rem;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #aaa;
+}
+th, td {
+    width: 14.2%;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    text-align: center;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+th {
+    border-bottom-width: 2px;
+    background-color: #ddd;
+}
+td:hover {
+    font-weight: bold;
+    background-color: #dcffba;
+}
+
+select {
+    padding: 0.3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.prev, .next {
+    color: #aaa;
+    background-color: transparent;
+}
+.today {
+    background-color: #aeff5e;
+    font-weight: bold;
+}
+.sun {
+    background-color: #f08080;
+}
+.sat {
+    background-color: #add8e6;
+}
+
+#title {
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+#cap {
+    margin: 0;
+    font-family: 'Homemade Apple', cursive;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    color: #aaa;
+    text-align: center;
+    font-weight: normal;
+}
+
+.a-change {
+    margin: 0 auto 1rem;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+
+.menu {
+    margin: 1rem 0;
+    text-align: right;
+}
+.menu select:first-child {
+    margin-right: 0.5rem;
+}
+
+.left { float:left;  }
+.right { float: right; }
+.clear {
+    clear: both;
+}
+.a-left { text-align: left; }
+.a-center { text-align: center; }
+.a-right { text-align: right; }
